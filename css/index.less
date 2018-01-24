@@ -1,0 +1,763 @@
+@import "reset.min.css";
+@import "animate.min.css";
+@import "swiper.min.css";
+
+html {
+  font-size: 100px; /*640px:1REM=100PX*/
+}
+
+html, body {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  background: #f4f4f4;
+  z-index: -4;
+}
+
+.mainBox {
+  position: relative;
+  margin: 0 auto;
+  max-width: 640px;
+  height: 100%;
+  background: #FFF;
+  overflow: hidden;
+}
+
+.swiper-container, .swiper-slide {
+  height: 100%;
+  overflow: hidden;
+}
+
+/*PAGE1*/
+.page1 {
+  background: url("../img/bg1.png") no-repeat;
+  background-size: 100% 100%;
+
+  .title {
+    position: relative;
+    top: 1rem;
+    left: 50%;
+    margin-left: -1rem;
+    .title1 {
+      position: absolute;
+      width: 1rem;
+      height: .64rem;
+      background: url("../img/qiu.png") no-repeat;
+      background-size: 100% 100%;
+      //animation: bounceInDown 2s both;
+
+    }
+    .title2 {
+      position: absolute;
+      margin-left: .45rem;
+      width: 1.52rem;
+      height: .69rem;
+      background: url("../img/zhi.png") no-repeat;
+      background-size: 100% 100%;
+      //animation: bounceInRight 2s both;
+    }
+    .title3 {
+      position: absolute;
+      margin-top: .3rem;
+      margin-left: 1.15rem;
+      width: .21rem;
+      height: .21rem;
+      background: url("../img/jian.png") no-repeat;
+      background-size: 100% 100%;
+      //animation: bounceInLeft 2s both;
+    }
+  }
+
+  .subtitle {
+    position: relative;
+    top: 1.8rem;
+    width: 1.8rem;
+    height: .2rem;
+    font-size: .14rem;
+    color: #f4efce;
+    margin: 0 auto;
+    //animation: fadeInLeft 2s 1s both;
+  }
+  .pen {
+    position: absolute;
+    margin-top: -.2rem;
+    width: 0.61rem;
+    height: .38rem;
+    background: url("../img/pen.png") no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .boy {
+    position: absolute;
+    top: 2.8rem;
+    left: 50%;
+    margin-left: -.9rem;
+    width: 1.8rem;
+    height: 1.97rem;
+    background: url("../img/li.png") no-repeat;
+    background-size: 100% 100%;
+    //animation: fadeInUp 2s 1s both;
+  }
+  .dream {
+    position: absolute;
+    top: 3.2rem;
+    left: 50%;
+    margin-left: -.55rem;
+    font-size: .14rem;
+    //animation: fadeInLeft 2s 1s both;
+  }
+
+  .coffee {
+    position: absolute;
+    top: 2.8rem;
+    left: 50%;
+    margin-left: .7rem;
+    width: .39rem;
+    height: .32rem;
+    background: url("../img/coffee.png") no-repeat;
+    background-size: 100% 100%;
+    //animation: fadeInRight 2s 2s both;
+  }
+}
+
+#page1{
+  .title {
+    .title1 {
+      animation: bounceInDown 2s both;
+
+    }
+    .title2 {
+      animation: bounceInRight 2s both;
+    }
+    .title3 {
+      animation: bounceInLeft 2s both;
+    }
+  }
+
+  .subtitle {
+    animation: fadeInLeft 2s 1s both;
+  }
+
+  .boy {
+    animation: fadeInUp 2s 1s both;
+  }
+  .dream {
+    animation: fadeInLeft 2s 1s both;
+  }
+
+  .coffee {
+    animation: fadeInRight 2s 2s both;
+  }
+}
+
+/*PAGE2*/
+.page2 {
+  background: url("../img/bg2.png") no-repeat;
+  background-size: 100% 100%;
+
+  //transition: opacity .4s ;
+  //animation: ;
+
+  .title{
+    top: 0;
+    left: 0;
+    margin-top: .8rem;
+    position: relative;
+    div{
+      .a{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: .6rem;
+        width: .27rem;
+        height: .21rem;
+        background: url("../img/a.png") no-repeat;
+        background-size: 100% 100%;
+        //animation: bounceInDown .5s 0s both;
+      }
+      .b{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: .74rem;
+        width: .11rem;
+        height: .21rem;
+        background: url("../img/b.png") no-repeat;
+        background-size: 100% 100%;
+        //animation: bounceInDown .5s .2s both;
+      }
+      .o{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: .85rem;
+        width: .11rem;
+        height: .21rem;
+        background: url("../img/o.png") no-repeat;
+        background-size: 100% 100%;
+        //animation: bounceInLeft .5s .4s both;
+      }
+      .u{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: .98rem;
+        width: .11rem;
+        height: .21rem;
+        background: url("../img/u.png") no-repeat;
+        background-size: 100% 100%;
+        //animation: bounceInDown .5s .6s both;
+      }
+      .t{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 1.1rem;
+        width: .11rem;
+        height: .21rem;
+        background: url("../img/t.png") no-repeat;
+        background-size: 100% 100%;
+        //animation: bounceInLeft .5s .8s both;
+      }
+
+      .m{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 1.28rem;
+        width: .18rem;
+        height: .21rem;
+        background: url("../img/m.png") no-repeat;
+        background-size: 100% 100%;
+        //animation: bounceInDown .5s 1s both;
+      }
+
+      .e{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 1.47rem;
+        width: .11rem;
+        height: .21rem;
+        background: url("../img/e.png") no-repeat;
+        background-size: 100% 100%;
+        //animation: bounceInDown .5s 1.2s both;
+      }
+    }
+    p{
+      position: absolute;
+      margin-top: -.02rem;
+      margin-left: 1.8rem;
+      font-size: .2rem;
+      color: #ff620e;
+      //animation: fadeInRight 2s 1.5s both;
+
+    }
+  }
+  .info{
+    top: 0;
+    left: 0;
+    margin-top: 1.8rem;
+    position: relative;
+
+    .bg{
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-left: .5rem;
+      width: 2.55rem;
+      height: 2.32rem;
+      background: url("../img/bg_white1.png") no-repeat;
+      //-webkit-filter: blur(7px);
+      //filter: blur(7px);
+      background-size: 100% 100%;
+      //animation: fadeIn .5s 2.2s both;
+
+    }
+    .boy{
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-left: .75rem;
+      margin-top: .8rem;
+      width: .85rem;
+      height: 2.59rem;
+      background: url("../img/boy-2.png") no-repeat;
+      background-size: 100% 100%;
+      //animation: slideInLeft 2s 2.4s both;
+    }
+    .baseInfo{
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-top: .2rem;
+      margin-left: 1.7rem;
+      p{
+        color: #ff620e;
+        font-size: .2rem;
+        //animation: slideInLeft 2s 2.4s both;
+      }
+      ul{
+
+        margin:.2rem 0;
+        font-size: .14rem;
+        //animation: slideInRight 2s 2.4s both;
+      }
+    }
+
+
+  }
+
+}
+
+#page2 {
+  .title{
+    div{
+      .a{
+        animation: bounceInDown .5s 0s both;
+      }
+      .b{
+        animation: bounceInDown .5s .2s both;
+      }
+      .o{
+        animation: bounceInLeft .5s .4s both;
+      }
+      .u{
+        animation: bounceInDown .5s .6s both;
+      }
+      .t{
+        animation: bounceInLeft .5s .8s both;
+      }
+
+      .m{
+        animation: bounceInDown .5s 1s both;
+      }
+
+      .e{
+        animation: bounceInDown .5s 1.2s both;
+      }
+    }
+    p{
+      animation: fadeInRight 2s 1.5s both;
+
+    }
+  }
+  .info{
+    .bg{
+      animation: fadeIn .5s 2.2s both;
+
+    }
+    .boy{
+      animation: slideInLeft 2s 2.4s both;
+    }
+    .baseInfo{
+      p{
+        animation: slideInLeft 2s 2.4s both;
+      }
+      ul{
+        animation: slideInRight 2s 2.4s both;
+      }
+    }
+
+
+  }
+
+}
+///*PAGE3*/
+//.page3 {
+//  background: #E45454;
+//}
+//#page3{
+//
+//}
+//
+///*PAGE4*/
+//.page4 {
+//  background: #FAC471;
+//}
+//#page4{
+//
+//}
+
+/*PAGE5*/
+.page3 {
+  background: url("../img/bg2.png") no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  color: #f4efce;
+  .ready {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -1.36rem;
+    margin-top: -2rem;
+    width: 2.73rem;
+    height: 3.95rem;
+    background: url("../img/dream.png") no-repeat;
+    background-size: 100% 100%;
+    //animation: zoomIn 2s both;
+  }
+  .w1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -1.6rem;
+    margin-left: -.8rem;
+    font-size: .3rem;
+    font-weight: bold;
+    //animation: fadeInLeft 2s 1s both;
+  }
+  .w2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -1.2rem;
+    margin-left: -.5rem;
+    font-size: .14rem;
+    //animation: fadeInRight 2s 1s both;
+  }
+  .w3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -.8rem;
+    margin-left: -.5rem;
+    font-size: .14rem;
+    //animation: fadeIn 5s 1s both;
+  }
+
+}
+#page3 {
+  .ready {
+    animation: zoomIn 2s both;
+  }
+  .w1 {
+    animation: fadeInLeft 2s 1s both;
+  }
+  .w2 {
+    animation: fadeInRight 2s 1s both;
+  }
+  .w3 {
+    animation: fadeIn 5s 1s both;
+  }
+
+}
+
+/*PAGE6*/
+.page4 {
+  background: url("../img/bg1.png") no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  color: #f4efce;
+
+  .skill {
+    position: relative;
+    top: 15%;
+    .title1 {
+      .zhuan {
+        //top: 50%;
+        //left: 50%;
+        //margin-top: -2.3rem;
+        margin-left: -.44rem;
+        position: absolute;
+        width: .24rem;
+        height: .24rem;
+        background: url("../img/zhuan.png") no-repeat;
+        background-size: 100% 100%;
+        animation: bounceIn .1s both;
+      }
+      .ye {
+        //top: 50%;
+        //left: 50%;
+        //margin-top: -2.3rem;
+        margin-left: -.22rem;
+        position: absolute;
+        width: .24rem;
+        height: .24rem;
+        background: url("../img/ye.png") no-repeat;
+        background-size: 100% 100%;
+        //animation: bounceInLeft .5s .2s both;
+      }
+      .ji {
+        //top: 50%;
+        //left: 50%;
+        //margin-top: -2.3rem;
+        //margin-left: -.04rem;
+        position: absolute;
+        width: .24rem;
+        height: .24rem;
+        background: url("../img/ji.png") no-repeat;
+        background-size: 100% 100%;
+        //animation: bounceInDown .5s .4s both;
+      }
+      .neng {
+        //top: 50%;
+        //left: 50%;
+        //margin-top: -2.3rem;
+        margin-left: .23rem;
+        position: absolute;
+        width: .24rem;
+        height: .24rem;
+        background: url("../img/neng.png") no-repeat;
+        background-size: 100% 100%;
+        //animation: bounceInLeft .5s .6s both;
+      }
+    }
+    .item{
+      position: absolute;
+      margin-top: .5rem;
+      padding: 0 .3rem ;
+      display: flex;
+      width: 3rem;
+      justify-content: space-around;
+      .html5{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        div{
+          width: .39rem;
+          height: .39rem;
+          background: url("../img/ps.png") no-repeat;
+          background-size: 100% 100%;
+          margin-bottom: .1rem;
+        }
+        //animation: zoomIn 1s .8s both;
+      }
+      .css3{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        div{
+          width: .39rem;
+          height: .39rem;
+          background: url("../img/ps.png") no-repeat;
+          background-size: 100% 100%;
+          margin-bottom: .1rem;
+        }
+        //animation: zoomIn 1s 1.2s both;
+      }
+      .js{
+        div{
+          width: .39rem;
+          height: .39rem;
+          background: url("../img/ps.png") no-repeat;
+          background-size: 100% 100%;
+          margin-bottom: .1rem;
+
+        }
+        //animation: zoomIn 1s 1.6s both;
+      }
+      .vue{
+        div{
+          width: .39rem;
+          height: .39rem;
+          background: url("../img/ps.png") no-repeat;
+          background-size: 100% 100%;
+          margin-bottom: .1rem;
+
+        }
+        //animation: zoomIn 1s 2s both;
+
+      }
+      .react{
+        div{
+          width: .39rem;
+          height: .39rem;
+          background: url("../img/ps.png") no-repeat;
+          background-size: 100% 100%;
+          margin-bottom: .1rem;
+
+        }
+        //animation: zoomIn 1s 2.4s both;
+      }
+      .webpack{
+        div{
+          width: .39rem;
+          height: .39rem;
+          background: url("../img/ps.png") no-repeat;
+          background-size: 100% 100%;
+          margin-bottom: .1rem;
+
+        }
+        //animation: zoomIn 2s 2.8s both;
+
+      }
+    }
+
+  }
+  .project {
+    position: relative;
+    top: 40%;
+    .title2 {
+      .xiang {
+        margin-left: -.44rem;
+        position: absolute;
+        width: .24rem;
+        height: .24rem;
+        background: url("../img/xiang.png") no-repeat;
+        background-size: 100% 100%;
+        //animation: bounceInLeft .5s 3.6s both;
+      }
+      .mu {
+        margin-left: -.22rem;
+        position: absolute;
+        width: .24rem;
+        height: .24rem;
+        background: url("../img/mu.png") no-repeat;
+        background-size: 100% 100%;
+        //animation: bounceInUp .5s 3.8s both;
+      }
+      .jing {
+        position: absolute;
+        width: .24rem;
+        height: .24rem;
+        background: url("../img/jing.png") no-repeat;
+        background-size: 100% 100%;
+        //animation: bounceInLeft .5s 4s both;
+      }
+      .yan {
+        margin-left: .23rem;
+        position: absolute;
+        width: .24rem;
+        height: .24rem;
+        background: url("../img/yan.png") no-repeat;
+        background-size: 100% 100%;
+        //animation: bounceInUp .5s 4.2s both;
+      }
+    }
+    .pro{
+      position: absolute;
+      left: 50%;
+      margin-left: -1.1rem;
+      margin-top: .5rem;
+      font-size: .14rem;
+
+      div{
+        margin: .2rem 0;
+      }
+      .pro1{
+        //animation: fadeInDown 1s 5s both;
+      }
+      .pro2{
+        //animation: fadeInDown 1s 5.5s both;
+      }
+    }
+
+
+  }
+
+}
+#page4 {
+  .skill {
+    .title1 {
+      .zhuan {
+        animation: bounceIn .1s both;
+      }
+      .ye {
+        animation: bounceInLeft .5s .2s both;
+      }
+      .ji {
+        animation: bounceInDown .5s .4s both;
+      }
+      .neng {
+        animation: bounceInLeft .5s .6s both;
+      }
+    }
+    .item{
+      .html5{
+        animation: zoomIn 1s .8s both;
+      }
+      .css3{
+        animation: zoomIn 1s 1.2s both;
+      }
+      .js{
+        animation: zoomIn 1s 1.6s both;
+      }
+      .vue{
+        animation: zoomIn 1s 2s both;
+
+      }
+      .react{
+        animation: zoomIn 1s 2.4s both;
+      }
+      .webpack{
+        animation: zoomIn 2s 2.8s both;
+
+      }
+    }
+
+  }
+  .project {
+    .title2 {
+      .xiang {
+        animation: bounceInLeft .5s 3.6s both;
+      }
+      .mu {
+        animation: bounceInUp .5s 3.8s both;
+      }
+      .jing {
+        animation: bounceInLeft .5s 4s both;
+      }
+      .yan {
+        animation: bounceInUp .5s 4.2s both;
+      }
+    }
+    .pro{
+      .pro1{
+        animation: fadeInDown 1s 5s both;
+      }
+      .pro2{
+        animation: fadeInDown 1s 5.5s both;
+      }
+    }
+  }
+}
+
+/*PAGE7*/
+.page5 {
+  background: url("../img/bg2.png") no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  color: #f4efce;
+  .w1 {
+    font-size: .16rem;
+    margin-top: 15%;
+    //animation: fadeInLeft 2s both;
+  }
+
+  .w2 {
+    position: absolute;
+    bottom: .2rem;
+    left: 50%;
+    margin-left: -.6rem;
+    font-size: .14rem;
+    //animation: fadeInLeft 2s both;
+  }
+  .resume {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -1.36rem;
+    margin-top: -1.3rem;
+    width: 2.62rem;
+    height: 2.72rem;
+    background: url("../img/dropOffResume.png") no-repeat;
+    background-size: 100% 100%;
+    //animation: zoomIn 2s both;
+  }
+}
+#page5 {
+  .w1 {
+    animation: fadeInLeft 2s both;
+  }
+  .w2 {
+    animation: fadeInLeft 2s both;
+  }
+  .resume {
+    animation: zoomIn 2s both;
+  }
+}
+
+
